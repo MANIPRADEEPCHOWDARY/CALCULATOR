@@ -25,6 +25,7 @@ int sqr(int i) {
 int cub(int i) {
 	return (i * i * i);
 }
+
 int main() {
     int a, b;
     char operation;
@@ -79,7 +80,7 @@ int main() {
             case 'i':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("Will be implemented soon...\n");
+                printf("invers is %f\n",1/(float)a);
                 break;
             default:
                 printf("Invalid operation. Please try again.\n");
